@@ -2,6 +2,39 @@
   text-align: center;
 }
 
+.tab{
+  display: inline-block;
+  width: 100%;
+  border: rgb(199, 191, 191) 1px solid;
+}
+
+.make-room{
+  margin-right: 5px;
+}
+
+ul{
+  padding: 0;
+}
+
+.menu{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.inline{
+  display: inline
+}
+
+.inline-block-display{
+  display: inline-block;
+  margin: 0;
+  border-radius: 0;
+}
+
+.remove-task{
+  float: right;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +69,4 @@
     transform: rotate(360deg);
   }
 }
+
